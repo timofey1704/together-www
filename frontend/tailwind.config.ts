@@ -12,6 +12,7 @@ export default {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
         headertext: '#179CD7',
+        footerbg: '#9DD5EC',
       },
       fontFamily: {
         unbounded: ['Unbounded', 'sans-serif'],
