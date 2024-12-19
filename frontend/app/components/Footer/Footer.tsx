@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="mx-auto bg-gray-100 text-black py-8 ">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap justify-between">
-          <div className="w-full sm:w-1/2 md:w-1/4 mb-6 md:mb-0">
+          {/* <div className="w-full sm:w-1/2 md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-xl sm:text-2xl font-bold mb-4">О нас</h3>
             <ul className="text-gray-700">
               <li className="mb-2">
@@ -24,7 +24,7 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="w-full sm:w-1/2 md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-xl sm:text-2xl font-bold mb-4">
               Принять участие
@@ -55,16 +55,16 @@ const Footer = () => {
               >
                 <IoIosCall className="h-6 w-6 hover:text-red-400" />
               </a>
-              <a
+              {/* <a
                 href="viber://chat?number=%"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaViber className="h-6 w-6 hover:text-red-400" />
-              </a>
-              <a href="https://t.me/" target="_blank" rel="noopener noreferrer">
+              </a> */}
+              {/* <a href="https://t.me/" target="_blank" rel="noopener noreferrer">
                 <FaTelegram className="h-6 w-6 hover:text-red-400" />
-              </a>
+              </a> */}
               <a href="mailto:info.together24@gmail.com">
                 <MdEmail className="h-6 w-6 hover:text-red-400" />
               </a>
