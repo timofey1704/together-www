@@ -32,7 +32,7 @@
 
    ```sh
    git clone https://github.com/timofey1704/together-www.git
-   cd restmark-www
+   cd together-www
    ```
 
 2. **Установка зависимостей для фронтенда и бэкенда:**
