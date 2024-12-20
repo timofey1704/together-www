@@ -54,6 +54,7 @@
 
    Создайте файл `.env` в корневой директории и добавьте необходимые переменные окружения:
    Добавьте в ALLOWED_HOSTS новый хостнейм, а так же укажите его в NEXT_PUBLIC_API_URL в формате "<hostname>/api/v1/"
+   Так же в backend/base/settings.py нужно добавить новых хостнейм в CORS_ALLOWED_ORIGINS
 
    ```env
     SECRET_KEY =
