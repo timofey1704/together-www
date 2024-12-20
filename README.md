@@ -1,4 +1,4 @@
-# Together"
+# Together
 
 Добро пожаловать в репозиторий сайта Together. Этот проект включает в себя фронтенд на Next.js и бэкенд на Django.py с базой данных PostgreSQL.
 
@@ -43,7 +43,7 @@
    Создайте базу данных PostgreSQL и выполните миграции:
 
    ```sh
-   createdb restmarkDB
+   createdb together_landing
    # Выполните миграции, если они имеются. В проекте откройте директорию backend
    cd backend
    python manage.py makemigrations
