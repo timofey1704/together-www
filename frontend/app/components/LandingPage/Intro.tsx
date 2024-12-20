@@ -4,7 +4,7 @@ import Button from '../ui/Button/Button'
 
 const Intro = () => {
   return (
-    <div className="px-5 md:w-5/6 lg:w-5/6 mx-auto">
+    <div className="md:pl-20 lg:pl-20 px-2 py-10">
       <h1 className="text-headertext font-unbounded text-5xl md:text-8xl lg:text-8xl font-semibold px-7 py-4">
         TOGETHER
       </h1>
@@ -21,7 +21,7 @@ const Intro = () => {
         нужно сходить в магазин за продуктами, посетить аптеку или поликлинику,
         заполнить документы, не имея для этого возможностей
       </div>
-      <div className="flex items-center space-x-4 p-2 md:px-6 md:py-9 md:space-x-9 lg:px-6 lg:py-9 lg:space-x-9">
+      <div className="flex items-center space-x-4 p-2 pl-6 md:px-6 md:py-9 md:space-x-9 lg:px-6 lg:py-9 lg:space-x-9">
         <Link
           href="/helper"
           className="px-6 py-2 bg-blue-500 text-white text-sm font-unbounded rounded-full  transition-colors duration-300"
