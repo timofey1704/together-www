@@ -34,17 +34,11 @@ const Header = () => {
       </div>
 
       <div className="hidden md:flex items-center space-x-4">
-        <Link
-          href="/helper"
-          className="px-6 py-2 bg-blue-500 text-white text-sm font-unbounded rounded-full hover:bg-blue-600 transition-colors duration-300"
-        >
+        <Link href="/helper">
           <Button text="Хочу помогать" />
         </Link>
 
-        <Link
-          href="/requester"
-          className="px-6 py-2 bg-blue-500 text-white text-sm font-unbounded rounded-full hover:bg-blue-600 transition-colors duration-300"
-        >
+        <Link href="/requester">
           <Button text="Нужна помощь" />
         </Link>
       </div>

@@ -22,17 +22,11 @@ const Intro = () => {
         заполнить документы, не имея для этого возможностей
       </div>
       <div className="flex items-center space-x-4 p-2 pl-6 md:px-6 md:py-9 md:space-x-9 lg:px-6 lg:py-9 lg:space-x-9">
-        <Link
-          href="/helper"
-          className="px-6 py-2 bg-blue-500 text-white text-sm font-unbounded rounded-full  transition-colors duration-300"
-        >
+        <Link href="/helper">
           <Button text="Хочу помогать" />
         </Link>
 
-        <Link
-          href="/requester"
-          className="px-6 py-2 bg-blue-500 text-white text-sm font-unbounded rounded-full  transition-colors duration-300"
-        >
+        <Link href="/requester">
           <Button text="Ищу помощь" />
         </Link>
       </div>

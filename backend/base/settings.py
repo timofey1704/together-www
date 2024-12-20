@@ -73,24 +73,17 @@ WSGI_APPLICATION = 'base.wsgi.application'
 
 CORS_ALLOW_CREDENTIALS = True  # для разрешения cookie
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-]
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000']
+
 
 CORS_ALLOW_METHODS = [
     "GET",
     "POST",
     "HEAD"
-    "PUT",
-    "DELETE",
-    "OPTIONS",
-    "PATCH"
 ]
 
 
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:5173',
-]
+CORS_ORIGIN_WHITELIST = ['http://localhost:3000']
 
 CORS_ALLOW_ALL_ORIGINS = False
 

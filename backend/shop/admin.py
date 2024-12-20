@@ -4,7 +4,7 @@ from shop.models import Request
 
 @admin.register(Request)
 class RequestAdmin(admin.ModelAdmin):
-    list_display = ('request_type', 'name', 'surname', 'email', 'phone_number')  # поля которые отображаем
+    list_display = ('request_type', 'name', 'surname', 'email', 'phone_number', 'request')  # поля которые отображаем
     search_fields = ('name', 'surname', 'request_type')  # поля по которым ищем
     list_filter = ('request_type',)  # фильтр по полям
     

@@ -6,6 +6,7 @@ class Request(models.Model):
     surname = models.CharField(max_length=255)
     email = models.CharField(max_length=255, null=True, blank=True)
     phone_number = models.CharField(max_length=30, null=True, blank=True)
+    request = models.CharField(max_length=1000, null=True, blank=True)
     
     class Meta:
         verbose_name = "Review"

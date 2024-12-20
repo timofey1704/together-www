@@ -16,20 +16,20 @@ const Description = () => {
             <p className="font-unbounded text-headertext font-semibold text-xl md:text-2xl lg:text-2xl py-1 md:py-5">
               Как это работает:
             </p>
-            <li className="py-1 md:py-5 text-base">
+            <li className="py-1 md:py-5 text-base md:text-xl lg:text-xl">
               Приложение подбирает волонтёров в радиусе от вас, чтобы помощь
               всегда была рядом
             </li>
-            <li className="py-1 md:py-5 text-base">
+            <li className="py-1 md:py-5 text-base md:text-xl lg:text-xl">
               Мы тщательно проверяем волонтёров и обеспечиваем безопасность
               взаимодействия
             </li>
-            <li className="py-1 md:py-5 text-base">
+            <li className="py-1 md:py-5 text-base md:text-xl lg:text-xl">
               Когда вам нужна помощь — будь то доставка продуктов, или
               сопровождение в медучреждения — вы сможете быстро найти надёжного
               помощника
             </li>
-            <li className="py-1 md:py-5 text-base">
+            <li className="py-1 md:py-5 text-base md:text-xl lg:text-xl">
               Мы поддерживаем волонтёров, делая процесс оказания помощи простым,
               адресным и безопасным
             </li>

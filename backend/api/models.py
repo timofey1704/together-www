@@ -12,7 +12,7 @@ class RequestsResource(ModelResource):
         resource_name = 'send-request'
         allowed_methods = ['post']
         authorization = Authorization()
-        authentication = CustomApiKeyAuthentication()
+        # authentication = CustomApiKeyAuthentication()
 
     def obj_create(self, bundle, **kwargs):
      
