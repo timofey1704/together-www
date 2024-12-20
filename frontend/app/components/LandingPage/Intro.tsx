@@ -4,18 +4,18 @@ import Button from '../ui/Button/Button'
 
 const Intro = () => {
   return (
-    <div className="px-5">
+    <div className="px-5 md:w-5/6 lg:w-5/6 mx-auto">
       <h1 className="text-headertext font-unbounded text-5xl md:text-8xl lg:text-8xl font-semibold px-7 py-4">
         TOGETHER
       </h1>
-      <div className="font-velasans px-7 text-xl md:text-3xl lg:text-3xl py-3">
+      <div className="font-velasans px-7 text-xl md:text-2xl lg:text-2xl py-3">
         Создаем мир возможностей вместе
       </div>
-      <div className="font-velasans px-7 text-xl md:text-3xl lg:text-3xl py-3">
+      <div className="font-velasans px-7 text-xl md:text-2xl lg:text-2xl py-3">
         Вы когда-нибудь задумывались, что для некоторых людей простой выход на
         улицу может быть непреодолимой проблемой?
       </div>
-      <div className="font-velasans px-7 text-xl md:text-3xl lg:text-3xl py-3">
+      <div className="font-velasans px-7 text-xl md:text-2xl lg:text-2xl py-3">
         Пожилые люди и инвалиды сталкиваются с трудностями, о которых
         большинство даже не задумывается. Закройте глаза и представьте, что вам
         нужно сходить в магазин за продуктами, посетить аптеку или поликлинику,
