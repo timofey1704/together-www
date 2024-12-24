@@ -16,11 +16,11 @@ const Value = () => {
           />
         </div>
         <div className="flex flex-col w-full md:w-1/2 px-4 md:px-10 ">
-          <h2 className="text-headertext font-unbounded text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 py-4">
+          <h2 className="text-headertext font-ttruns text-2xl md:text-3xl lg:text-4xl font-semibold mb-6 py-4">
             В чём наша ценность?
           </h2>
           <div className="mb-6 md:py-3 lg:py-3">
-            <h3 className="font-unbounded text-headertext font-semibold text-lg md:text-xl mb-2 ">
+            <h3 className="font-ttruns text-headertext font-semibold text-lg md:text-xl mb-2 ">
               Для тех, кому нужна помощь:
             </h3>
             <p className="font-unbounded font-light text-base md:text-xl lg:text-xl">
@@ -30,7 +30,7 @@ const Value = () => {
             </p>
           </div>
           <div className="mb-6 md:py-3 lg:py-3">
-            <h3 className="font-unbounded text-lg text-headertext font-semibold md:text-xl mb-2">
+            <h3 className="font-ttruns text-lg text-headertext font-semibold md:text-xl mb-2">
               Для родственников нуждающихся:
             </h3>
             <p className="font-unbounded font-light text-base md:text-xl lg:text-xl">
@@ -41,7 +41,7 @@ const Value = () => {
             </p>
           </div>
           <div className="mb-6 md:py-3 lg:py-3">
-            <h3 className="font-unbounded text-lg text-headertext font-semibold md:text-xl mb-2">
+            <h3 className="font-ttruns text-lg text-headertext font-semibold md:text-xl mb-2">
               Для тех, кто готов помогать:
             </h3>
             <p className="font-unbounded font-light text-base md:text-xl lg:text-xl">

@@ -36,3 +36,11 @@ body {
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'TT Runs';
+  src: url('/fonts/TTRuns/tt-runs-extrabold.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

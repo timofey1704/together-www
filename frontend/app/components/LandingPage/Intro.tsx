@@ -5,7 +5,7 @@ import Button from '../ui/Button/Button'
 const Intro = () => {
   return (
     <div className="md:pl-20 lg:pl-20 px-2 py-10">
-      <h1 className="text-headertext font-unbounded text-5xl md:text-8xl lg:text-8xl font-semibold px-7 py-4">
+      <h1 className="text-headertext font-ttruns text-5xl md:text-8xl lg:text-8xl font-semibold px-7 py-4">
         TOGETHER
       </h1>
       <div className="font-velasans px-7 text-xl md:text-2xl lg:text-2xl py-3">

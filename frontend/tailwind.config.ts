@@ -17,6 +17,7 @@ export default {
       fontFamily: {
         unbounded: ['Unbounded', 'sans-serif'],
         velasans: ['Vela Sans', 'sans-serif'],
+        ttruns: ['TT Runs', 'sans-serif'],
       },
     },
   },
