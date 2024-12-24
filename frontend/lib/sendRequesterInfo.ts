@@ -1,6 +1,6 @@
-import { FormData } from '@/app/types'
+import { RequestPage } from '@/app/types'
 
-export const sendRequestForm = async (formData: FormData) => {
+export const sendRequesterInfo = async (RequestPage: RequestPage) => {
   // const API_URL = 'http://127.0.0.1:8000/api/v1'
   const API_URL = 'https://together24.by/api/v1'
   const API_KEY = 'fghasjd-123-asdjk'
@@ -14,12 +14,11 @@ export const sendRequestForm = async (formData: FormData) => {
         Accept: 'application/json',
       },
       body: JSON.stringify({
-        request_type: 'landing',
-        name: formData.name,
-        request: formData.request,
-        surname: '-',
-        email: formData.email,
-        phone_number: '-',
+        request_type: 'need_help_url',
+        name: RequestPage.name,
+        surname: RequestPage.surname,
+        email: RequestPage.email,
+        phone: RequestPage.phone_number,
       }),
     })
 
